@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.sidebar {
+    grid-column: 1 / 2;
+}
+
+.logoIcon {
+    width: 60px;
+    height: auto;
+}
+
+.icon {
+    width: 40px;
+    height: auto;
+}
